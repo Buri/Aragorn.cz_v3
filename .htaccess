@@ -1,0 +1,22 @@
+# Apache configuration file (see httpd.apache.org/docs/current/mod/quickreference.html)
+
+# disable directory listing
+Options -Indexes
+
+# enable cool URL
+RewriteEngine On
+# RewriteBase /
+
+# trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*[^/]$ /$0/ [R=301]
+
+# prevents files starting with dot to be viewed by browser
+RewriteRule /\.|^\. - [F]
+
+# front controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/(.*)/ /index.php?link=$1&slink=$2&akce=$3 [QSA]
+RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/ /index.php?link=$1&slink=$2 [QSA]
+RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/ /index.php?link=$1 [QSA,L]
