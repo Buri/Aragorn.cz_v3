@@ -1,7 +1,7 @@
 # Apache configuration file (see httpd.apache.org/docs/current/mod/quickreference.html)
 
 # disable directory listing
-Options -Indexes
+Options -Indexes -MultiViews
 
 # enable cool URL
 RewriteEngine On
@@ -14,9 +14,12 @@ RewriteRule ^.*[^/]$ /$0/ [R=301]
 # prevents files starting with dot to be viewed by browser
 RewriteRule /\.|^\. - [F]
 
+RewriteCond %{HTTP_HOST} ^aragorn.cz$
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 # front controller
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/(.*)/ /index.php?link=$1&slink=$2&akce=$3 [QSA]
-RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/ /index.php?link=$1&slink=$2 [QSA]
-RewriteRule (registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/ /index.php?link=$1 [QSA,L]
+RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/(.*)/$ /index.php?link=$1&slink=$2&sslink=$3 [QSA]
+RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/$ /index.php?link=$1&slink=$2 [QSA]
+RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/$ /index.php?link=$1 [QSA,L]
