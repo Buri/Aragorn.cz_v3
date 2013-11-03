@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+body, html{
+margin: 1em;
+font: 90% 'Tahoma CE', 'Arial CE', 'Helvetica CE', Tahoma, Arial, lucida, sans-serif;
+}
+
+h1{
+font-size: 160%;
+margin: 0
+}
+:focus {
+outline:0;
+}
+acronym {
+cursor: help;
+border-bottom:1px dashed;
+text-transform: none;
+font-variant: normal;
+}
+.hide {
+	display:none !important;
+}
+table {
+table-layout: fixed;
+vertical-align: middle;
+}
+table td {
+vertical-align: middle;
+}
+table.autolayout {
+table-layout: auto;
+}
+
+form table td {
+vertical-align: top;
+border-top: 1px solid #ccc !important;
+}
+
+table.list tr:hover td {background:#EAF2FF;}
+
+h1 a{
+color: #828282;
+}
+
+h2 {
+font-size: 120%;
+margin: 0;
+margin-bottom: 10px
+}
+
+.holder{
+width: 100%;
+margin: auto
+}
+
+.menu{
+padding-top: 20px
+}
+
+.menu ul{
+padding: 0;
+margin: 0
+}
+
+.menu li{
+text-align: center;
+list-style-type: none;
+display: inline;
+float:left;
+margin-right:2px;
+}
+
+.menu li a{
+color: #205B8B;
+display: block;
+padding: 4px 8px 4px 8px;
+margin-top:2px;
+text-decoration: none;
+background-color: #EAF2FF;
+border: 1px solid #CAD5E0;
+border-bottom: none;
+}
+
+.menu li a:hover{
+background-color: #B1E0FF;
+color: #001C40;
+text-decoration: underline;
+border-color: #aaa;
+}
+
+.menu li a.selected {
+color:#000000 !important;
+background-color: #FFFFFF !important;
+margin-top:0 !important;
+border-color: #000 !important;
+border-top-width: 3px !important;
+}
+
+.menu span{
+float: right
+}
+
+.content{
+border-top: 1px solid #ddd;
+clear: both
+}
+
+.content-in{
+padding: 20px;
+}
+
+/* tabulka s produkty */
+.list{
+width: 95%;
+margin: auto;
+}
+
+.list th{
+padding: 1px 5px 1px 5px;
+font-weight: bold;
+background-color: #f8f8f8;
+color:#444;
+border: 1px solid #e0e0e0;
+}
+
+.list td{
+padding: 5px
+}
+
+.list td em {
+text-align: center;
+padding: 0;
+display: block;
+line-height: 1.5;
+background-color: #FF9592;
+font-style: normal;
+}
+
+.list span {
+text-align: center;
+padding: 0;
+display: block;
+line-height: 1.5;
+background-color: #AFD6D6;
+}
+
+.bg1, #bg1{
+background-color: #fff3df
+}
+
+.bg2, #bg2{
+background-color: white
+}
+
+.bg3, #bg3{
+font-weight: bold;
+color: red
+}
+
+.bg4, #bg4{
+color: black
+}
+
+#ac {
+text-align: center;
+}
+
+.ok{
+font-weight: bold;
+color: green
+}
+
+.error{
+font-weight: bold;
+color: red
+}
+
+.aragorncz {
+position: absolute;
+top: 10px;
+right: 10px;
+display: block;
+width: 300px;
+text-align: right;
+border-bottom: 1px solid #EBEBEB;
+padding: 10px;
+}
+
+.aragorncz a:link, .aragorncz a:visited {
+color: #CCCCCC;
+font-family: Verdana, Arial, lucida, sans-serif;
+font-size:16px;
+font-weight:bold;
+letter-spacing: 2pt;
+text-decoration:none;
+}
+
+.strankovaniMarked {
+border: 1px solid #999;
+background-color: #f5f5f5;
+}
+
+.sinp {
+width:5em;
+text-align:center;
+}
+.t-a-c{
+	text-align:center;
+}
+.rimg {
+float:right;
+}
+
+.footline{
+	clear:both;
+	position:absolute;
+	display:block;
+	text-align:center;
+	font-size:10px;
+	color:#999;
+}
+
+#ifrm {position:absolute;height:1px;width:1px;overflow:hidden;left:5px;top:0;}

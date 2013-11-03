@@ -1,0 +1,3 @@
+var tinyMCE = {
+init:function(){}
+}

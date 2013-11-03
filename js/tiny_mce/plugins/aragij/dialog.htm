@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="cs-cz" dir="ltr"> 
+<head>
+	<title>Aragorn.cz - Vložit šablonu deníku</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+</head>
+<body>
+
+<form onsubmit="ExampleDialog.insert();return false;" action="#">
+	<h4>Vyberte typ deníku</h4>
+	<!--p>Selected text: <input id="someval" name="someval" type="text" class="text" /></p>
+	<p>Custom arg: <input id="somearg" name="somearg" type="text" class="text" /></p-->
+	<table>
+
+	<tr><td><input id="drd16-template" name="journaltype" type="radio" value="drd16-template" checked><label for="drd16-template">DrD 1.6</label></td></tr>
+	<tr><td><input id="vtr-template" name="journaltype" type="radio" value="vtr-template"><label for="vtr-template">Vampire: Rekviem</label></td></tr>
+	</table>
+	<p>Varování: Vložením šablony deníku přepíšete současný!</p>
+
+
+	<div class="mceActionPanel">
+		<input type="button" id="insert" onclick="ExampleDialog.insert();" value="Vložit"/>
+		<input type="button" id="cancel" onclick="tinyMCEPopup.close();" value="Zrušit"/>
+	</div>
+</form>
+
+</body>
+</html>

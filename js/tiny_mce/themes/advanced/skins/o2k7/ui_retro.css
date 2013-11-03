@@ -1,0 +1,11 @@
+/* Retro */
+.o2k7SkinRetro .mceToolbar .mceToolbarStart span, .o2k7SkinRetro .mceToolbar .mceToolbarEnd span, .o2k7SkinRetro .mceButton, .o2k7SkinRetro .mceSplitButton, .o2k7SkinRetro .mceSeparator, .o2k7SkinRetro .mceSplitButton a.mceOpen, .o2k7SkinRetro .mceListBox a.mceOpen {background-image:url(img/button_bg_black.png)}
+.o2k7SkinRetro table, .o2k7SkinRetro .mceMenuItemTitle a, .o2k7SkinRetro .mceMenuItemTitle span.mceText, .o2k7SkinRetro .mceStatusbar div, .o2k7SkinRetro .mceStatusbar span, .o2k7SkinRetro .mceStatusbar a {background:black; color: sandyBrown}
+.o2k7SkinRetro table.mceListBoxEnabled .mceText, o2k7SkinBlack .mceListBox .mceText {background:black; border:1px solid; border-right:0}
+.o2k7SkinRetro table.mceListBoxEnabled:hover .mceText, .o2k7SkinRetro .mceListBoxHover .mceText, .o2k7SkinRetro .mceListBoxSelected .mceText {background:black; border:1px solid; border-right:0}
+.o2k7SkinRetro .mceExternalToolbar, .o2k7SkinRetro .mceListBox .mceText, .o2k7SkinRetro div.mceMenu, .o2k7SkinRetro table.mceLayout, .o2k7SkinRetro .mceMenuItemTitle a, .o2k7SkinRetro table.mceLayout tr.mceFirst td, .o2k7SkinRetro table.mceLayout, .o2k7SkinRetro .mceMenuItemTitle a, .
+.o2k7SkinRetro table.mceSplitButtonEnabled:hover a.mceAction, .o2k7SkinRetro .mceSplitButtonHover a.mceAction, .o2k7SkinRetro .mceSplitButtonSelected {background-image:url(img/button_bg_black.png)}
+.o2k7SkinRetro .mceMenu .mceMenuItemEnabled a:hover, .o2k7SkinRetro .mceMenu .mceMenuItemActive {background-color:#FFE7A1}
+
+.o2k7SkinRetro table.mceLayout tr.mceFirst td, .o2k7SkinRetro .mceIframeContainer, .o2k7SkinRetro table.mceLayout tr.mceLast td, .o2k7SkinRetro .mceIframeContainer, .o2k7SkinRetro table.mceLayout {border: 0;}
+.o2k7SkinRetro iframe body, .o2k7SkinRetro iframe td, .o2k7SkinRetro iframe pre {border: 1px solid sandyBrown; background: black !important; color: sandyBrown;}

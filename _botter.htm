@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>AjaxChat BOT</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+
+var timerInterval = 0;
+
+function $(t){
+	return document.getElementById(t);
+}
+
+function $random(min, max){
+ return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function $clear(timer){
+	clearTimeout(timer);
+	clearInterval(timer);
+	return null;
+}
+
+function send_() {
+	var message = $("message").value || '...';
+	$("timer").value = 1;
+	sending_mess = true;
+	if (!send_xmlhttprequest(ajax_send, 'POST', 'http://www.aragorn.cz/ajax_chat/chat_ajaxing.php?do=chat_sending&id=1&to=0', 'message='+encodeURIComponent(message))) { return false; }
+	return true;
+}
+
+function ajax_send(xmlhttp) {
+	if (xmlhttp.readyState == 4) {
+		sending_mess = false;
+	}else if(xmlhttp.readyState == 3){
+		sending_mess = true;
+	}
+}
+
+function send_xmlhttprequest(after, meth, url, content, heads) {
+var xmlhttp=false;
+/*@cc_on @*/
+/*@if (@_jscript_version >= 5)
+ try {xmlhttp=new ActiveXObject("Msxml2.XMLHTTP");
+ }catch(e){
+  try{xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}catch(E){xmlhttp = false;}
+ }
+@end @*/
+	if (!xmlhttp&&typeof XMLHttpRequest!='undefined'){
+		try{xmlhttp=new XMLHttpRequest();
+		}catch(e){xmlhttp=false;}
+	}
+	if (!xmlhttp&&window.createRequest) {
+		try{xmlhttp = window.createRequest();
+		}catch(e){xmlhttp=false;}
+	}
+	if(!xmlhttp){return false;}
+	xmlhttp.open(meth,url);
+	xmlhttp.onreadystatechange=function(){after(xmlhttp);};
+	if(heads){for(var key in heads){xmlhttp.setRequestHeader(key,heads[key]);}}
+	xmlhttp.setRequestHeader('Pragma','no-cache');
+	xmlhttp.setRequestHeader("Cache-Control", "no-cache");
+	xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+	if (xmlhttp.overrideMimeType) xmlhttp.setRequestHeader('Connection','close');
+	if (content) {xmlhttp.send(content);}else {xmlhttp.send(null);}
+	return true;
+}
+
+function write_(){
+	$("timer").value = ($("timer").value * 1) + 1;
+	var low = $("timer").value * 1;
+	var high = $("celkem").value * 1;
+	if (low >= high) {
+		send_();
+	}
+}
+
+function do_timer(t) {
+	if ($('starterstoper').value == "Stop") {
+		$clear(timerInterval);
+		$('starterstoper').value='Start';
+	}
+	else {
+		$clear(timerInterval);
+		timerInterval = setInterval("write_()", 1000*1);
+		$('starterstoper').value='Stop';
+	}
+}
+
+
+function nulify(){
+	$clear(timerInterval);
+	$("timer").value = '1';
+	if ($('starterstoper').value == "Stop") {
+		timerInterval = setInterval("write_()", 1000*1);
+		$('starterstoper').value = "Stop";
+	}
+	else {
+		$('starterstoper').value = "Start";
+	}
+}
+
+function regenerate(){
+	$("nahoda").value = $random(5*60,14*60);
+}
+
+function nastavmax(){
+	var w = $("nahoda").value;
+	if (isNaN(w)) {
+		alert('Náhoda musí být celé číslo!\n\nNic nastavovat nebudu!');
+		$('nahoda').focus();
+		return;
+	}
+	w = Math.round(w);
+	$("nahoda").value = w;
+	$("celkem").value = $("nahoda").value;
+}
+
+</script>
+<style type="text/css">
+/* <![CDATA[ */
+  html,body{font-family:Tahoma, Arial, lucida, sans-serif;background-color:#fff;color:#000;border:none;padding:0;margin:0;font-size:9pt;line-height:125%;}
+  form{margin:40px;padding:20px 30px;float:left;background-color: #eee;border:5px solid #ddd;line-height:125%;}
+  label {float:left;width:100px;font-weight:bold;line-height:125%;}
+  p{clear:both;margin-top:5px;}
+  input{font-size:9pt;}
+  .fl {float:left;}
+  .margins input {margin-right:20px;}
+  #log {white-space:pre;font-family:courier, monospace;}
+/* ]]> */
+</style>
+</head>
+<body>
+<form action="#">
+	<p><label for="timer">časovač:</label> <span class="fl">aktuální: <input type="text" readonly="readonly" id="timer" size="6"> z celkem <input type="text" id="celkem" readonly="readonly"> sekund</span></p>
+	<p><label for="message">zpráva:</label> <span class="fl"><input type="text" id="message" value="..." size="10"></span></p>
+	<p><label for="nahoda">náhoda:</label> <span class="fl"><input type="text" id="nahoda" value="600" size="5"> sekund :: <input type="button" onclick="regenerate();return false;" value="Generuj"> jiný náhodný interval odeslání <input type="button" onclick="nastavmax();return false;" value="Nastav"> horní limit časovače na aktuální náhodu</span></p>
+	<p class="margins"><input type="button" id="starterstoper" value="Start" onclick="do_timer();return false;"> <input type="button" value="Vynulovat" onclick="nulify();return false;"> <input type="button" value="Odeslat" onclick="if(confirm('Odeslat teď hned?')){send_()};return false;"></p>
+</form>
+<div id="log">
+</div>
+<script type="text/javascript">
+	$('timer').value = '1';
+	$('nahoda').value = $('celkem').value = '600';
+</script>
+</body>
+</html>

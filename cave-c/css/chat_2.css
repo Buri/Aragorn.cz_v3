@@ -1,0 +1,23 @@
+body {font-family: Tahoma, Courier New; font-size: 11px; background-color: black; color: #8F8F8F; MARGIN: 0px}
+body, html{
+scrollbar-track-color: black;
+scrollbar-face-color: black;
+scrollbar-highlight-color: #c0aa3b;
+scrollbar-3dlight-color: black;
+scrollbar-darkshadow-color: black;
+scrollbar-shadow-color: #c0aa3b;
+scrollbar-arrow-color: #c0aa3b
+}
+input, textarea, select {font-family: Courier New; font-size: 11px; background-color: #1D1919; color: #ffffff; border: #858585 1px solid}
+form {margin: auto}
+
+/*LINKS*/
+a {color: #c0aa3b; text-decoration: none}
+a:hover {color: #ffffff}
+
+.menu {font-size: 11px}
+.menu a {color: #ffffff}
+.menu a:hover {text-decoration: underline}
+
+.fwc {background-color: black; border: black 1px solid}
+.list {background-image: url("./cross.gif"); width: 133px; height: 160px; display: block; background-repeat: no-repeat}

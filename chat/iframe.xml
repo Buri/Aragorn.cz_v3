@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ax>
+<ms id="153437" c="orange" m="0" l="20:48:17" f="apophis" tname=""><![CDATA[<span><script type="text/javascript">t=new Date();h=t.getHours();m=t.getMinutes();s=t.getSeconds();if(h<10){h='0'+h;}if(m<10){m='0'+m;}if(s<10){s='0'+s;}document.write(h+':'+m+':'+s);</script></span> &laquo;- document.write od JavaScriptu, aby bylo vidět, že se mění a znovu načítá ;) <b>boldíkem psanej text</b>]]></ms>
+<ms id="153438" c="steelblue" m="0" l="20:48:15" f="apophis" tname=""><![CDATA[<span><script type="text/javascript">t=new Date();h=t.getHours();m=t.getMinutes();s=t.getSeconds()+1;if(h<10){h='0'+h;}if(m<10){m='0'+m;}if(s<10){s='0'+s;}document.write(h+':'+m+':'+s);</script></span> &laquo;- document.write od JavaScriptu, aby bylo vidět, že se mění a znovu načítá ;) <b>boldíkem psanej text</b>]]></ms>
+</ax>

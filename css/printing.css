@@ -1,0 +1,186 @@
+html, body {
+  background: white;
+  color: black;
+}
+body {
+  font: normal normal normal 100%/1.2 normal times, serif;
+}
+p {
+	margin: 0.5ex 0 1ex 0;
+	padding: 0;
+}
+#dis-module-x .submenu, #dis-module-x form, #ajaxi-bar, .info, #dhtmltooltip, .footer iframe, .footer img, .hide, #chromeout, .menu {
+	display: none;
+	visibility: hidden;
+}
+h1 {
+	margin: 0 0 5pt 0;
+	padding: 0;
+  border-bottom: 1px solid black;
+  line-height: 1.7;
+	font-size: 150%;
+}
+h1 a, h2 a, h3 a {
+	text-decoration: none;
+	color: black;
+}
+h2 {
+	margin: 0;
+	clear: left;
+}
+h1 a, h2 a {
+	color: #999;
+}
+h2, h3 {
+	font-size: 130%;
+	display: inline;
+}
+h3 {
+	font-size: 130%;
+	margin-left: 20pt;
+	clear: right;
+}
+.h3-middle {
+	margin-top: 10pt;
+	display: block;
+	margin-bottom: 0;
+}
+.footer {
+	padding-top: 3pt;
+	border-top: 3px double black;
+	font-size: 70%;
+}
+table p {
+	padding: 0;
+	margin: 0;
+  text-align: left;
+}
+.c2, .c3 {
+	vertical-align: top;
+  text-align: left;
+}
+.c2 {
+	width: 40px;
+}
+a img {
+	border: none;
+}
+.commtb {
+	width: 95%;
+	overflow: hidden;
+	border: 1px solid black;
+	margin: 0 0 5pt 0;
+}
+.strankovani {
+	line-height: 1.3;
+}
+.strankovani a {
+	padding: 3px 5px;
+  text-decoration: none;
+}
+#strankovaniMarked {
+	border: 1px solid black;
+}
+
+.highlight-mid {
+	padding: 5pt;
+}
+.signature {
+	font-size: 70%;
+}
+table td {
+	border: 1px solid #999;
+  border-collapse: collapse;
+}
+table {
+  border-collapse: collapse;
+}
+.c-nazev, strong, b {
+  font-weight: bold;
+  margin: 0;
+	padding: 0;
+}
+.ci {
+	font-size: 90%;
+  font-weight: bold;
+  margin-bottom: 5pt;
+  border-bottom: 1px solid #999;
+  padding-bottom: 5pt;
+}
+.cl {
+	padding: 5px;
+  line-height: 1.25;
+  margin-bottom: 5pt;
+  border-bottom: 1px solid #999;
+}
+.cl p {
+	margin: 5pt 0;
+}
+.submenu a {
+	margin: 0 10pt 0 0;
+}
+em, i {
+	margin: 0;
+	padding: 0;
+  font-style: italic;
+}
+#ge {
+	display: block;
+	font-size: 90%;
+}
+.galerie-vypis td {
+	padding: 5pt;
+}
+.galerie-vypis p {
+	margin-bottom: 3px;
+}
+.rating {
+	display: block;
+  background: url('/graphic/light/light_rating.gif') repeat-x;
+  height: 17px;
+}
+.horp, .hdrd {
+	margin: 5px 0;
+	width: 99%;
+	overflow: hidden;
+	border: 1px solid #999;
+}
+.her {
+  text-align: center;
+	font-size: 180%;
+}
+.hcas {
+	font-size: 40%;
+}
+.herna-vypis h4 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.7;
+}
+.herna-vypis p, .hinfo {
+	padding: 3pt;
+}
+.diskuze-one, .edttbl {
+	width: 97%;
+}
+.edttbl h4 {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+.diskuze-one td, .edttbl td {
+	vertical-align: top;
+}
+.hpopis {
+	width: 90pt;
+}
+.t-a-c {
+	text-align: center;
+}
+.text {
+	border: 1px solid black;
+	padding: 5px;
+}
+.herna-vypis .text {
+	padding: 0;
+}

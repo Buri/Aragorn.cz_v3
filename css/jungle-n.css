@@ -1,0 +1,106 @@
+html#htjungletime{overflow:auto;border:none;}
+body.jungletime {font:0.8em/1.3 'Georgia','Times New Roman',Georgia,times,serif;letter-spacing:1px;color:#81D84A;text-align:left;margin:0;overflow:auto;background:black url('http://s1.aragorn.cz/g/jungle/unsupported.gif') no-repeat center center;}
+.jungletime td,.jungletime div,.jungletime p,.jungletime span{text-align:left;}
+.jungletime a{color:#D8FFC4;font-variant:small-caps;text-decoration:underline;}
+.jungletime a:hover{color:#96E463;text-decoration:underline;}
+.jungletime a img{border:none;}
+.jungletime .content p,.jungletime .content td p{margin:5px;padding:0;overflow:hidden;line-height:1.3;text-align:left}
+.jungletime table{overflow:hidden;border:1px solid #63BA35;}
+.jungletime table td{vertical-align:top;overflow:hidden;}
+.jungletime .hide{display:none;visibility:hidden;}
+.jungletime .holder{text-align:left;margin:0 auto;position:absolute;top:0;left:0;right:0;bottom:0;overflow:auto;background:#3F6C1B url('http://s1.aragorn.cz/g/jungle/forestX.gif') repeat center center;}
+.jungletime .top,.jungletime .menu,.jungletime .content,.jungletime .footer{top:50%;left:50%;position:absolute;}
+.jungletime .top{background-color:darkgreen;text-align:left;margin-top:0;top:0;margin-left:162px;height:30px;width:330px;overflow:hidden;z-index:5000;}
+.jungletime .top h1{margin:0;font-size:30px;line-height:30px;padding:0;}
+.jungletime .top a{display:block;height:30px;width:330px;overflow:hidden;text-decoration:none;text-transform:uppercase;}
+.jungletime .top a:hover{text-decoration:none;}
+.jungletime .top a span{visibility:visible;display:block;height:30px;width:330px;overflow:hidden;cursor:pointer;text-align:center;}
+.jungletime .menu{margin-top:68px;top:0;margin-left:162px;overflow:hidden;width:330px;}
+.jungletime .menu ul{display:inline;margin:0 0 0 0 !important;width:330px;padding:0;line-height:30px;overflow:hidden;white-space:nowrap;}
+.jungletime .menu ul li{margin:0;padding:0;list-style:none;}
+.jungletime #men1,.jungletime #men2,.jungletime #men3,.jungletime #men4,.jungletime #men5,.jungletime #men6{overflow:hidden;width:110px;float:left;}
+.jungletime .menu ul li a,.jungletime #chrome ul li a{padding:0;font-size:16px;font-weight:bold;display:block;text-decoration:none;font-variant:normal;text-align:center;line-height:30px;}
+.jungletime .menu ul li a:hover{text-decoration:none;}
+.jungletime .menu #marked{background-color:darkgreen;}
+.jungletime .content{height:100%;width:650px;margin-top:0;top:0;margin-left:-490px;overflow:hidden;background:url('http://s1.aragorn.cz/g/jungle/bg_green_dither50.gif') repeat 0 0;}
+.jungletime h2,.jungletime h3,.jungletime h4,.jungletime h5{padding:0;margin:0;letter-spacing:0;}
+.jungletime h2,.jungletime h3{display:inline;margin:5px 15px 20px 5px;line-height:2;font-size:18px;}
+.jungletime h2 a,.jungletime h3 a{}
+.jungletime h5{padding:0;margin:3px 0;}
+.jungletime h1 a,.jungletime h2 a,.jungletime h3 a,.jungletime h4 a,.jungletime h5 a,.jungletime h6 a{font-variant:normal;}
+.jungletime .frame{position:absolute;background:none;font-size:90%;letter-spacing:0;word-spacing:1px;top:0;left:0;right:0;bottom:0;margin-top:0;margin-bottom:73px;overflow:auto;width:650px;}
+.jungletime .frame-in{overflow:hidden;margin:10px 10px 20px 10px;text-align:left;}
+.jungletime .footer{position:absolute;top:100%;margin-top:-72px;margin-left:-490px;height:70px;width:980px;overflow:hidden;font-size:6pt;word-spacing:0;letter-spacing:0;font-family:Tahoma,Arial,lucida,sans-serif;border-top:1px solid darkgreen;}
+.jungletime .footer a{font-size:100%;font-variant:normal;}
+.jungletime .footer2{position:absolute;top:3px;left:3px;width:400px;padding:0 5px 4px 0;border-right:5px solid green;text-align:center;}
+.jungletime .footer2 br{}
+.jungletime .footer2 table{margin:0 !important;padding:0;position:absolute;width:560px;top:0;left:415px;}
+.jungletime .footer2 table td{vertical-align:bottom;padding:0;margin:0;}
+.jungletime #chrome form,.jungletime #chrome p,.jungletime #chrome label,.jungletime #chrome input,.jungletime #chrome *{padding:0;margin:0;}
+.jungletime #chromeout{position:absolute;padding:0;margin:0;display:block;top:128px;left:50%;margin-left:162px;width:330px;height:0;width:0;font-size:10px;font-weight:bold;letter-spacing:0;}
+.jungletime #chromeout a,.jungletime #chromeout a:visited{font-variant:normal;}
+.jungletime #chrome{position:absolute;top:0;left:0;right:0;height:0;display:block;width:330px;}
+.jungletime #chrome ul,.jungletime #chrome ul li{position:absolute;top:0;left:0;list-style-type:none;height:0;width:0;}
+.jungletime #chrome ul li a:hover{text-decoration:none;}
+.jungletime .dropmenudiv{position:absolute;top:0 !important;left:0 !important;border:1px solid #1C760A;font-size:10px;z-index:2000;background-color:#264E0F;width:100px;visibility:hidden}
+.jungletime .dropmenudiv a,.jungletime .dropmenu a:visited,.jungletime .dropmenu a:active{display:block;line-height:16px;padding:0 10px;text-decoration:none;font-variant:normal;letter-spacing:0;font-weight:normal;}
+.jungletime .profile{padding:0;margin:0;text-align:right;position:absolute !important;top:0 !important;left:0 !important;line-height:30px;height:0;width:330px;font-weight:bold;color:#96E463;}
+.jungletime .profile a{font-variant:normal;text-decoration:none}
+.jungletime .profile a:hover{text-decoration:underline}
+.jungletime .profile img{position:relative;top:1px;border-width:0}
+.jungletime .profile-form,.jungletime .profile-span{position:absolute !important;top:-94px !important;left:0 !important;margin:0;padding:0;width:330px;letter-spacing:0;display:block;text-align:center;line-height:30px;font-size:12px;word-spacing:0;height:30px;background-color:green;}
+.jungletime .profile-span{color:#96E463;}
+.jungletime .profile-form{white-space:nowrap;font-size:11px;}
+.jungletime .profile-form input.textfield{color:#96E463;width:70px;margin-right:2px;position:relative;top:1px;background-color:darkgreen;border:none;}
+.jungletime #profile-button{height:19px;position:relative;left:5px;color:#50BC2D;border:1px solid darkgreen;}
+.jungletime #dropmenu5head{width:110px;position:absolute;left:0 !important;top:0 !important;}
+.jungletime #dropmenu5{top:30px !important;left:0 !important;width:130px !important;}
+.jungletime #dropmenu2head{width:220px;position:absolute;left:110px !important;top:0 !important;}
+.jungletime #dropmenu2{left:110px !important;top:30px !important;width:220px !important;}
+.jungletime #dropmenu2 a{display:block;width:109px;line-height:1.5;float:left;}
+.jungletime #dropmenu4head{width:220px;position:absolute;left:0 !important;top:30px !important;text-align:left;}
+.jungletime #dropmenu4{left:0px !important;width:280px !important;top:60px !important;}
+.jungletime #dropmenu4 a{display:block;width:139px;line-height:1.5;float:left;}
+.jungletime #dropmenu3head{width:110px;position:absolute;left:180px !important;top:30px !important;}
+.jungletime #dropmenu3{left:180px !important;width:150px !important;top:60px !important;}
+.jungletime .frame fieldset div{font-weight:bold;}
+.jungletime .frame form label{display:block;font-weight:normal;margin:2px 0;vertical-align:middle;line-height:2;}
+.jungletime .frame form input{margin-top:5px;border-color:#155500;background-color:green;color:#61E231;font-weight:bold;font-size:80%;}
+.jungletime .frame form label input,.jungletime .frame form label select,.jungletime .frame form label textarea{font-weight:normal;vertical-align:text-top;margin-top:-3px;margin-left:5px;background-color:darkgreen;color:#96E463;font-size:80%;}
+.jungletime .frame textarea{width:80% !important;height:70pt !important;margin-bottom:5px;font-size:10pt !important;line-height:1.1;font-family:'Courier New','Courier CE',courier,monospace;display:block;}
+.jungletime .frame fieldset{border:1px dashed green;}
+.jungletime .submenu{display:block;border-top:3px solid darkgreen;border-bottom:3px solid darkgreen;}
+.jungletime .submenu a{font-size:14px;line-height:1.1;margin-right:14px;vertical-align:middle;text-decoration:none;}
+.jungletime .submenu a:hover{text-decoration:none;}
+.jungletime .star{padding-right:12px}
+.jungletime .admin1{background:url('http://s1.aragorn.cz/g/resize/admin.gif') right no-repeat}
+.jungletime .admin2{background:url('http://s1.aragorn.cz/g/resize/admin.gif') right no-repeat}
+.jungletime .bonus1{background:url('http://s1.aragorn.cz/g/resize/bonus.gif') right no-repeat}
+.jungletime .bonus2{background:url('http://s1.aragorn.cz/g/resize/bonus.gif') right no-repeat}
+.jungletime .frame-in div{margin:10px 5px;}
+.jungletime .frame-in p{padding:5px;}
+.jungletime .strankovani{margin:0 auto;line-height:2;padding:0 10px;text-align:center !important;display:block;}
+.jungletime .strankovani a{line-height:2;padding:3px;}
+.jungletime .strankovaniMarked{border-left:1px solid darkgreen;border-right:1px solid darkgreen;background-color:darkgreen;}
+.jungletime .komuseptat label,.jungletime .komuseptat input{display:inline !important;}
+.jungletime .un,.jungletime .unr,.jungletime .c-ub,.jungletime .c-u{color:#A5ED6F;}
+.jungletime .herna-vypis table,.jungletime .diskuze-one{background:#050 url('http://s1.aragorn.cz/g/jungle/bg_green_dither50.gif') repeat 0 0;width:99%;overflow:hidden;margin:0 auto 5px auto;}
+.jungletime .frame table{margin:5px auto;}
+.jungletime .tb{width:90%;margin:0 auto;}
+.jungletime .tb td{vertical-align:middle;width:33.33%;text-align:center;}
+.jungletime .tb td a{font-size:10pt;}
+.jungletime .tb .offline,.jungletime .tb .online,.jungletime .users .online,.jungletime .users .offline{display:block;float:left;width:60px;height:40px;}
+.jungletime .tb .offline,.jungletime .users .offline{background:url('http://s1.aragorn.cz/g/jungle/off.gif') no-repeat center center;}
+.jungletime .tb .online,.jungletime .users .online{background:url('http://s1.aragorn.cz/g/jungle/on.gif') no-repeat center center;}
+.jungletime .signature{border-top:1px solid darkgreen;font-size:80%;margin-top:5px;clear:both;padding-top:4px;display:block;}
+.jungletime #dhtmltooltip{position:absolute;color:#A7E06C;z-index:10000;font-family:Tahoma,Arial,Helvetica,lucida,sans-serif;font-size:10px;margin-top:10px;padding:3px;border:1px solid darkgreen;background-color:#003300;}
+.jungletime #dis-module-x table{margin:0 auto 5px auto;text-align:left;width:90%;}
+.jungletime #dis-module-x table .c3{width:100%;overflow:hidden;text-align:left;}
+.jungletime .c1 a{text-transform:none;font-variant:normal;}
+.jungletime .c1{line-height:2;padding-left:4px;background-color:darkgreen;position:relative;}
+.jungletime .c1 input{position:absolute;right:5px;}
+.jungletime .c1 .ar{position:absolute;right:30px;background:url('http://s1.aragorn.cz/s/ruzne/arrow.gif') center center no-repeat;width:13px;height:13px;}
+.jungletime .jsStats th,.jungletime .jsStats td{text-align:center;color:black;font-size:0.9em;border:1px solid black}
+.jungletime .jsStats th,.jungletime .jsStatsK{font-weight:600;}
+.jungletime #k0{display:none;}
+.jungletime div#pgf2011-banner {top:190px;left: 0;margin-left: 800px;}

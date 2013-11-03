@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /larp/*
+Disallow: /larp2/*
+Disallow: /intro/*
+Disallow: /*%20/*

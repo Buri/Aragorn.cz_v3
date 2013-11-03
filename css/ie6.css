@@ -1,0 +1,15 @@
+.menu ul{margin:0 0 0 0;}
+.star{padding-top:1px;}
+.c1 input{top:1px;}
+.profile-form{top:-3px;}
+.profile{top:3px;}
+.profile-span{position:relative;bottom:3px;}
+#vzpominame {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/vzpominame.png', sizingMethod='image');}
+
+#kalendar-banner a span {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/light-kalendar.png', sizingMethod='image');}
+.gallery #kalendar-banner a span {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/kalendar.png', sizingMethod='image');}
+
+#pgc2010-banner a span {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/light-pgc-2010.png', sizingMethod='image');}
+.gallery #pgc2010-banner a span {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/pgc-2010.png', sizingMethod='image');}
+
+#pgf2011-banner a span {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s1.aragorn.cz/g/_banners/pgf2011.png', sizingMethod='image');}

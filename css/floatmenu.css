@@ -1,0 +1,85 @@
+#chromeout {
+position:absolute;
+display:block;
+top:1px;
+z-index:150;
+width:100%;
+font: bold 11px Verdana;
+margin:0;
+}
+
+#chrome {
+display:block;
+width:683px;
+margin:0 auto;
+}
+
+#chrome:after{ /*Add margin between menu and rest of content in Firefox*/
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+margin:0;
+}
+
+#chrome ul {
+border: 1px solid black;
+background: url("/graphic/chromebg.gif") center center repeat-x;
+width:auto;
+padding: 0;
+float: left;
+font: bold 11px Verdana;
+}
+
+#chrome ul li {
+display: inline;
+margin-left:auto;
+padding:0;
+width:auto;
+list-style-type:none;
+}
+
+#chrome ul li a {
+float: left;
+color: black;
+padding: 2px 2px 3px 4px;
+text-decoration: none;
+overflow:hidden;
+}
+
+#chrome ul li a:hover {
+color: #E0CC83;
+}
+
+.dropmenudiv{
+position:absolute;
+border: 1px solid #645933;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height:14px;
+z-index:200;
+background-color: #C1AB61;
+width: 100px;
+visibility: hidden;
+}
+
+.dropmenudiv a , .dropmenu a:visited , .dropmenu a:active{
+display: block;
+width: 100%;
+text-indent: 3px;
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+border-bottom:1px solid #645933;
+}
+
+.dropmenudiv a:hover{ /*Theme Change here*/
+background-color: #AC9958;
+color: #E0CC83;
+}
+
+.hide {
+display:none;
+visibility:hidden;
+}

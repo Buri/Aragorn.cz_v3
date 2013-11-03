@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /larp/*
+Disallow: /larp2/*
+Disallow: /intro/*
+Disallow: /*%20/*
+Sitemap: http://www.aragorn.cz/gg-site-map.php

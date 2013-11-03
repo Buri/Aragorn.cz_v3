@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+* {
+margin:0;
+line-height:1.3;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+border:none;
+font-family: Verdana, Tahoma, sans;
+}
+
+html, body{
+background: #000000
+}
+
+img {
+padding:0;
+border: none;
+}
+
+a, a:visited {
+color: #D69658;
+}
+a:hover {
+color: #EDCA73;
+}
+
+form{
+padding:0;
+margin: 0
+}
+.fg textarea, input, select {
+font-size: 0.8em;
+margin-left: 3px;
+background-color: #F7E7A0;
+border: 1px solid #6F6023;
+line-height: 1.5em;
+padding-left: 2px;
+padding-right: 2px;
+}
+.fg select {
+}
+
+.txt{
+height: 42px;
+padding: 2px;
+line-height:14px;
+width:95%;
+font-family:Tahoma, Arial, lucida, sans-serif;
+font-size: 12px !important;
+}
+
+.lim{
+padding: 5px 0px 0 15px;
+color: #EEEABF;
+font-size: 10px;
+}
+
+.play{
+width: 95%;
+height: 60px;
+margin: 5px 3px 0 5px;
+padding: 7px;
+background-color: #151515;
+border: 1px dashed #643F0A
+}
+
+.smiles {
+	margin-top: 5px;
+	font-size: 5px;
+	text-align: right;
+}
+
+.arachat{
+display: none;
+}
+
+.menu{
+margin-top: 10px;
+margin-left: 5px;
+padding: 7px;
+font-size: 70%;
+background-color: #222;
+border: 1px dashed #643F0A;
+border-right: 0px
+}
+
+.menu .odkaz a{
+padding:0;
+display: block;
+width: 110px;
+color: #D69658;
+text-decoration: none
+}
+
+.menu .odkaz a:hover{
+color: #EDCA73;
+text-decoration: none;
+}
+
+.myself {
+display: block;
+color: #D7FFAD;
+width: 110px;
+}
+
+.nazev{
+position: relative;
+display:block;
+margin-bottom: 5px;
+font-weight: bold;
+font-size: 135%;
+color: #BF6D26;
+}
+
+.stats{
+margin-top: 10px;
+margin-left: 10px;
+font-size: 70%;
+font-weight: bold;
+color: #E4E4E4
+}
+
+.game{
+overflow:hidden;
+width: 820px;
+padding: 10px;
+color: white
+}
+
+.game div {
+	margin: 0 0 0.5ex 0;
+	line-height: 125%;
+}
+
+.ch-bold{
+font-weight: bold
+}
+
+.rimg {
+margin-left: 5px;
+float: right
+}
+
+.vypravec{
+font-weight: bold;
+color: #D7FFAD
+}
+
+.mod_width {
+	float:none;
+	clear:both;
+	width:100%;
+	margin-bottom:15px;
+}
+
+.mod_width form{
+width: 400px !important;
+float:left;
+}
+
+/* varovani */
+.info{
+width: 300px;
+height: 60px;
+margin: 15px 20px 20px 0;
+padding: 7px;
+font-size: 70%;
+line-height: 160%;
+border: 1px dashed #643F0A;
+color: #DDD1B3
+}
+
+.info a{
+color: #EDCA73
+}
+
+.info span{
+width: 50px;
+height: 50px;
+display: block;
+padding: 0 10px 0 2px;
+background-repeat: no-repeat;
+float: left
+}
+
+/* obrazek ok */
+.ok {
+background-image: url('./ok.jpg')
+}
+
+/* obrazek varovani */
+.war {
+background-image: url('./warning.jpg')
+}
+
+.rp{
+font-size: 80%;
+font-weight: normal
+}
+
+/* formulare */
+.f {
+width: 450px;
+font-size: 100%;
+color: #DDD1B3;
+margin-top: 10px;
+background-color: #151515
+}
+
+.flink{
+padding-left: 20px;
+color: #EDCA73
+}
+
+.f img{
+margin: 0 5px 0 5px;
+border: 1px solid black
+}
+
+.f label{
+margin: 5px 5px 10px 5px;
+color: black;
+font-weight: bold;
+display: block;
+}
+
+.f input, .f textarea, .f select {
+background-color: #F7E7A0;
+border: 1px solid #6F6023;
+color: black;
+width: 150px;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.f option {
+text-indent: 5px;
+}
+
+.f input:focus, .f textarea:focus, .f label:focus, .f option:focus, .f select:focus {
+background-color: #fff;
+border-color: #686868;
+}
+
+.f textarea {
+margin: 0;
+width: 300px;
+height: 100px;
+margin-top: -1px;
+}
+.f>textarea {
+margin-top: 0;
+}
+
+.f fieldset input, .f fieldset select {
+margin: 0;
+margin-top: -1px;
+}
+
+.f>fieldset input, .f>fieldset select {
+margin-top: -1px;
+}
+
+.f fieldset select {
+width: 150px;
+}
+.f>fieldset select {
+width: 152px;
+}
+
+.f label span {
+font-size: 70%;
+display:block;
+padding-top:5px;
+padding-bottom:5px;
+width:150px;
+text-align: center;
+background-color: #A6985B;
+border: 1px solid #6C6238;
+border-bottom: none;
+}
+
+.f fieldset {
+margin-right:10px;
+padding: 10px;
+border: 1px dashed #643F0A
+}
+
+.f div {
+padding-bottom: 5px;
+font-size: 80%
+}
+
+.f #button, .f .button {
+font-size: 90%;
+margin-left: 6px
+}
+
+.f #button2, .f .button2 {
+font-size: 90%
+}
+
+form input[type^="checkbox"] {
+background-color: #999999;
+border: 2px gray inset;
+}
+
+.links_out a, .links_out a:visited {
+display:block;
+color: #F9CF38;
+margin:0 0 2px 0;
+font-size:11px;
+line-height:15px;
+border:1px solid #D69658;
+background-color: #814E04;
+text-decoration: none;
+text-indent:2px;
+}
+.links_out a:hover {
+color: #FFF07A !important;
+}
+a.big {
+font-size: 14px !important;
+line-height: 22px !important;
+margin-bottom: 4px !important;
+}
+a.mb5 {
+	margin-bottom: 5px;
+}
+a.mt5 {
+	margin-top: 5px;
+}
+fieldset.formbyhater {
+margin-right: 10px;
+padding: 10px;
+border: 1px dashed #643F0A;
+width: 368px;
+font-size: 90%;
+color: #DDD1B3;
+margin-top: 10px;
+background-color: #151515;
+position: relative;
+font-size:80%;
+float: left;
+}
+.formbyhater div.atright {float:right;}
+.formbyhater label {
+font-size: 70%;
+display:block;
+padding: 5px;
+margin: 0;
+margin-left: 3px;
+width:138px;
+text-align: center;
+background-color: #A6985B;
+color: black;
+border: 1px solid #6C6238;
+font-weight: bold;
+}
+.formbyhater button {background-color: #F7E7A0;border: 1px solid #6F6023;color: black;width: 150px;margin: 0;margin-left: 3px;line-height: 1.5em;padding: 1px 6px;padding-left: 2px;padding-right: 2px;font-size: 90%;text-align: center;}
+.formbyhater table {border-collapse: collapse;}
+.formbyhater select {width: 156px;line-height: 1.5em;padding-left: 2px;padding-right: 2px;line-height: 1.5em;padding: 1px 6px;padding-left: 2px;padding-right: 2px;font-size: 90%;}
+.formbyhater input {width: 150px;}

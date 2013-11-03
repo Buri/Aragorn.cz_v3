@@ -1,0 +1,171 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font: 10pt/1.3 Verdana, Arial, Helvetica, sans-serif;
+	background: #555;
+	color: #E6E6B5;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#check4js, #map-loaded{
+	position: absolute;
+	margin: 0;
+	left:0;
+	top:0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 300;
+	display: block;
+	background-color: black;
+	text-align: center;
+	font-size: 150%;
+	text-align: center;
+	line-height: 150%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#map-loaded {
+	cursor: wait;
+}
+#mapEdPJ {
+	display: block;
+	float: left;
+}
+.mapEdMapa {
+	margin: 10px 0 10px 10px;
+	border: none;
+	background-color: #666;
+}
+.mapEdMapa td {
+	width: 15px;
+	height: 15px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+.mapEdRow {
+	height: 15px;
+}
+#mapEdForm {
+	margin: 10px;
+	float: left;
+	width: 102px;
+}
+.mapEdPRadio {
+	float: left;
+	height: 15px;
+	margin: 0;
+}
+#mapEdOvladani {
+	font: normal 80% Tahoma,serif;
+	clear: both;
+	text-align: center;
+	float: left;
+	width: 90%;
+	display: block;
+}
+#mapEdOvladani a {
+	margin: 15px 0 0 0;
+	display: block;
+	color: #333;
+	line-height: 200%;
+	background-color: #aaa;
+	text-decoration: none;
+	border: 1px solid #000;
+}
+#mainControl a {
+	font-weight: bold;
+	color: #FFFF00;
+	text-decoration: none;
+	background: #990000;
+	padding: 2px;
+}
+.mapEdTypyTable {
+	float:left;
+	width:50px;
+	text-align:left;
+	left: 0;
+	top: 2px;
+	position: relative;
+}
+.mapEdTypyTable span {
+	width:15px;
+	float:left;
+	height:15px;
+	margin: 0 0 0 5px;
+}
+
+#menuout {
+font: bold 90% Tahoma,serif;
+width: auto;
+background-color: #ccc;
+color: #f8f8f8;
+letter-spacing: 1px;
+}
+#menuout td{
+vertical-align: middle;
+padding: 5px;
+}
+.menuin {
+letter-spacing: normal;
+font-size: 90%;
+background-color: #d5d5d5;
+}
+.menuin2 {
+letter-spacing: 0;
+font-size: 90%;
+background-color: #d5d5d5;
+text-align: center;
+}
+.menuin2 a {
+text-indent: 0;
+padding: 0 5px;
+text-decoration: none;
+font-weight: normal;
+color: #666;
+}
+.menuin a{
+display: block;
+text-indent: 0;
+padding: 2px 5px;
+text-decoration: none;
+font-weight: normal;
+color: #666;
+overflow: hidden;
+}
+
+.menuin a:hover{
+background-color: #F0F0F0;
+color: #333;
+}
+.menuin2 a:hover {
+color: #000;
+background-color: #eee;
+}
+.button {
+color: #333;
+background-color: #ccc;
+font-size: 90%;
+border: 1px solid #333;
+padding: 2px 5px;
+margin-right: 5px;
+}
+form {
+	padding: 0 10px;
+}
+input {
+color: #333;
+background-color: #ccc;
+}
+
+.showMe {
+margin: 5px;
+}
+.showMe h1, .showMe h2 {
+	font-size: 200%;
+	margin-left: 10px;
+}

@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+html, body {
+margin: 0;
+padding: 0;
+border: 0;
+font-family: Verdana, Tahoma, Courier New;
+line-height: 1.2;
+}
+
+body{
+background-color: black
+}
+
+a:link, a:visited {
+color: #EDCA73;
+}
+
+form{
+margin: 0
+}
+
+.fg textarea, .fg input, .fg select{
+font-size: 80%;
+margin-left: 5px;
+background-color: #F7E7A0;
+border: 1px solid #6F6023;
+}
+
+
+.txt{
+height: 20px;
+background-color: #FCF5D3
+}
+
+.lim{
+padding-left: 5px;
+color: #FCF5D3;
+font-size: 70%
+}
+
+.play{
+height: 60px;
+margin: 5px 2px 2px 10px;
+padding: 4px;
+display: block;
+background-color: #151515;
+border: 1px dashed #643F0A
+}
+
+.aracave{
+display: none;
+}
+
+.menu{
+margin-top: 10px;
+margin-left: 5px;
+padding: 7px;
+font-size: 70%;
+background-color: #151515;
+border: 1px dashed #643F0A;
+border-right: 0px
+}
+
+.menu a{
+width: 110px;
+display: block;
+color: #EDCA73;
+margin-bottom: 4px;
+text-decoration: none
+}
+
+.menu a:hover{
+text-decoration: underline
+}
+
+.nazev{
+position: relative;
+overflow: hidden;
+width: 120px;
+bottom: 3px;
+display: block;
+top: 5px;
+padding: 5px 0;
+margin: 5px 0;
+font-weight: bold;
+color: #E6E2DD
+}
+
+.stats{
+margin-top: 10px;
+margin-left: 10px;
+font-size: 70%;
+font-weight: bold;
+color: #E4E4E4
+}
+
+.game{
+overflow:hidden;
+width: 820px;
+padding: 10px;
+color: white
+}
+
+.ch-bold{
+font-weight: bold
+}
+
+.rimg {
+margin-left: 5px;
+float: right
+}
+
+.vypravec{
+font-weight: bold;
+color: #D7FFAD
+}
+
+.mod_width{
+width: 400px
+}
+
+/* varovani */
+.info{
+width: 300px;
+height: 60px;
+margin: 15px 20px 20px 0;
+padding: 7px;
+font-size: 70%;
+line-height: 160%;
+border: 1px dashed #643F0A;
+color: #DDD1B3
+}
+
+.info a{
+color: #EDCA73
+}
+
+.info span{
+width: 50px;
+height: 50px;
+display: block;
+padding: 0 10px 0 2px;
+background-repeat: no-repeat;
+float: left
+}
+
+/* obrazek ok */
+.ok {
+background-image: url('./ok.jpg')
+}
+
+/* obrazek varovani */
+.war {
+background-image: url('./warning.jpg')
+}
+
+.rp{
+font-size: 80%;
+font-weight: normal
+}
+
+/* formulare */
+.f {
+width: 450px;
+font-size: 100%;
+color: #DDD1B3;
+margin-top: 10px;
+background-color: #151515
+}
+
+.flink{
+padding-left: 20px;
+color: #EDCA73
+}
+
+.f img{
+margin: 0 5px 0 5px;
+border: 1px solid black
+}
+
+.f label{
+margin: 5px 5px 10px 5px;
+color: black;
+font-weight: bold;
+display: block;
+}
+
+.f input, .f textarea, .f select {
+background-color: #F7E7A0;
+border: 1px solid #6F6023;
+color: black;
+width: 150px;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.f option {
+text-indent: 5px;
+}
+
+.f input:focus, .f textarea:focus, .f label:focus, .f option:focus, .f select:focus {
+background-color: #fff;
+border-color: #686868;
+}
+
+.f textarea {
+margin: 0;
+width: 300px;
+height: 100px;
+margin-top: -1px;
+}
+.f>textarea {
+margin-top: 0;
+}
+
+.f fieldset input, .f fieldset select {
+margin: 0;
+margin-top: -1px;
+}
+
+.f>fieldset input, .f>fieldset select {
+margin-top: -1px;
+}
+
+.f fieldset select {
+width: 150px;
+}
+.f>fieldset select {
+width: 152px;
+}
+
+.f label span {
+font-size: 70%;
+display:block;
+padding-top:5px;
+padding-bottom:5px;
+width:150px;
+text-align: center;
+background-color: #A6985B;
+border: 1px solid #6C6238;
+border-bottom: none;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.f fieldset {
+padding: 10px;
+border: 1px dashed #643F0A
+}
+
+.f div {
+padding-bottom: 5px;
+font-size: 80%
+}
+
+.f #button, .f .button {
+font-size: 90%;
+margin-left: 6px
+}
+
+.f #button2, .f .button2 {
+font-size: 90%
+}
+
+table {
+	margin:0;
+	width: 100%;
+	border: none;
+  border-collapse: collapse;
+	padding:0;
+}
+
+table td {
+padding: 0;
+vertical-align: top;
+}
+.p-t {
+position: relative;
+top: 2px;
+}
+.bt {
+	position: relative;
+	top: 3px;
+}
+.plr {
+color: #D7FFAD;
+}
+.pjs {
+color: #D4AA92;
+}
+td.lim p {
+margin-top: 3px;
+}
