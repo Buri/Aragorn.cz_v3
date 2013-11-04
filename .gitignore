@@ -213,3 +213,13 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+###############
+## Project
+###############
+cache/
+galerie/
+tmp/
+system/roz_icos/
+system/icos/
+system/mapy/
