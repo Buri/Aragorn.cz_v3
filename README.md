@@ -25,10 +25,6 @@ Virtual host config:
 		AssignUserId ... ...
 	</IfModule>
 
-	Alias /apps/phpmyadmin /home/apps/phpmyadmin
-	Alias /apps/phpinfo /home/apps/phpinfo
-	Alias /apps/webmail /home/apps/roundcubemail
-	Alias /apps/webftp /home/apps/net2ftp
 	Alias /c /home/domeny/aragorn.cz/web/subdomeny/www/css
 	Alias /j /home/domeny/aragorn.cz/web/subdomeny/www/js
 	Alias /i /home/domeny/aragorn.cz/web/subdomeny/www/system/icos
