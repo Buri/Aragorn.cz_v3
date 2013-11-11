@@ -18,8 +18,8 @@ RewriteCond %{HTTP_HOST} ^aragorn.cz$
 RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # front controller
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/(.*)/$ /index.php?link=$1&slink=$2&sslink=$3 [QSA]
-RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/$ /index.php?link=$1&slink=$2 [QSA]
-RewriteRule (logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/$ /index.php?link=$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule (cave|logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/(.*)/$ /index.php?link=$1&slink=$2&sslink=$3 [QSA]
+RewriteRule (cave|logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/(.*)/$ /index.php?link=$1&slink=$2 [QSA]
+RewriteRule (cave|logout|ajax_room|room|rs|registrace|uspesna-registrace|potvrzeni-registrace|uzivatele|nastaveni|bonus|posta|posta-old|timeout|admins|administratori|galerie|clanky|clanky-test|diskuze|diskuse|chybny-login|chat|zalozky|napoveda|herna)/$ /index.php?link=$1 [QSA,L]
