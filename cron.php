@@ -17,6 +17,7 @@ mysql_query("DELETE FROM 3_ajax_chat WHERE time < ($time - 3600)");
 
 mysql_query ("DELETE FROM 3_cave_mess WHERE time < $time-21600");
 mysql_query ("DELETE FROM 3_cave_users WHERE timestamp < $time-7200");
+mysql_query ("DELETE FROM aragorncz01.3_herna_pj WHERE cid NOT IN ( SELECT id FROM 3_herna_all )");
 
 $minuta = date("i",$time);
 $hodina = date("H",$time);
